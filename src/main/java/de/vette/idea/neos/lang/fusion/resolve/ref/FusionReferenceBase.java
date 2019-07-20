@@ -26,7 +26,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class FusionReferenceBase<T extends FusionReferenceElement> extends PsiPolyVariantReferenceBase<T> implements FusionReference {
+public abstract class FusionReferenceBase<T extends PsiElement> extends PsiPolyVariantReferenceBase<T> implements FusionReference {
 
     public FusionReferenceBase(T psiElement) {
         super(psiElement);

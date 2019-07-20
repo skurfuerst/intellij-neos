@@ -25,7 +25,7 @@ import org.jetbrains.annotations.Nullable;
 public interface FusionReference extends PsiPolyVariantReference {
 
     @Override
-    FusionCompositeElement getElement();
+    PsiElement getElement();
 
     @Nullable
     @Override
